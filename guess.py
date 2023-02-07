@@ -2,10 +2,17 @@
 # 讓使用者重複輸入數字去猜
 # 猜對的話 印出“終於猜對了”
 # 猜錯的話 要告訴他 比答案大還是小
-# 衍伸題
+# 衍伸題 1
 # 顯示猜的次數
+# 衍伸題 2
+# 讓使用者決定數字範圍
 
 import random
+start = input('請決定數字範圍的開始值：')
+end = input('請決定數字範圍的結束值：')
+start = int(start)
+end = int(end)
+
 r = random.randint(1, 100)
 count = 0
 while True:
